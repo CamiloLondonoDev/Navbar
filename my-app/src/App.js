@@ -1,14 +1,15 @@
 import './App.css';
 import PrimerComponente from './Components/PrimerComponente';
 import { Routes, Route } from 'react-router-dom';
-import { Home } from "react-router-dom";
-import { About } from "react-router-dom";
-import { Contact } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home  from "./Components/Home";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
