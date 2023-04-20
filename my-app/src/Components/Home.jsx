@@ -1,2 +1,3 @@
-import React from 'react'
-import React,  { Link as LinkRouter } from 'react-router-dom';
+export default function Home() {
+    return <h1>Home</h1>
+}
